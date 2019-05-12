@@ -3,7 +3,7 @@ yarn
 yarn run webpack # 完了したら、index.htmlをブラウザで開く
 
 # コード整形
-yarn run eslint . --fix
+yarn run eslint ./src --fix
 ```
 
 または
