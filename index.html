@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Shepherd Sample</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous" defer></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous" defer></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous" defer></script>
+    <script src="dist/main.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Todo リスト</h1>
+        <nav class="navbar navbar-light bg-light">
+            <form class="form-inline js-add-todo guide-add-todo">
+                <input class="form-control mr-sm-2" type="text" placeholder="Add Todo">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">追加</button>
+            </form>
+        </nav>
+        <ul class="nav nav-tabs mt-3 guide-tab">
+            <li class="nav-item js-nav-item">
+                <a class="nav-link active" data-toggle="tab">All</a>
+            </li>
+            <li class="nav-item js-nav-item">
+                <a class="nav-link" data-toggle="tab">Active</a>
+            </li>
+            <li class="nav-item js-nav-item">
+                <a class="nav-link" data-toggle="tab">Complete</a>
+            </li>
+        </ul>
+        <div class="tab-content js-todo-list">
+            <div class="tab-pane active">
+                <div class="list-group list-group-flush js-todos guid-todos"></div>
+            </div>
+        </div>
+        <a href="" class="start">ガイドを見る</a>
+    </div>
+</body>
+</html>
