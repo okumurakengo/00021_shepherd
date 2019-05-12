@@ -1,11 +1,17 @@
 ```bash
-yarn # 完了したら、index.htmlをブラウザで開く
-yarn run eslint . --fix # コード整形
+yarn 
+yarn run webpck # 完了したら、index.htmlをブラウザで開く
+
+# コード整形
+yarn run eslint . --fix
 ```
 
 または
 
 ```bash
-npm i # 完了したら、index.htmlをブラウザで開く
-npx eslint ./src --fix # コード整形
+npm i
+npx webpck # 完了したら、index.htmlをブラウザで開く
+
+ # コード整形
+npx eslint ./src --fix
 ```
